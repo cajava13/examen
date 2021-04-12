@@ -57,7 +57,7 @@ pipeline {
                     echo 'successful'
 					mail to: 'carlosfernandezarg@gmail.com',
 					subject: "Test DevOps",
-                    body: "https://github.com/cajava13/groovy"
+                    body: "https://github.com/cajava13/examen"
                }
          }
     }
