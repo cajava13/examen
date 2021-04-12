@@ -55,8 +55,8 @@ pipeline {
     post {
        success {
                     echo 'successful'
-					mail to: 'carlosfernandezarg@gmail.com',
-					subject: "Test DevOps",
+		    mail to: 'carlosfernandezarg@gmail.com',
+		    subject: "Test DevOps",
                     body: "https://github.com/cajava13/examen"
                }
          }
